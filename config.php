@@ -1,3 +1,5 @@
+<?php
+
 $album = 'https://vk.com/photo511254518_456239018';
 $res = parse_url($album);
 $path = substr($res['path'], 9);
@@ -23,3 +25,4 @@ $conf = [
 	'random_id' => mt_rand(0000000000, 999999999999),
 	'v' => '5.50'
 ];
+?>
