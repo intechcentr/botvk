@@ -5,7 +5,7 @@ $arr = explode('_', $path);
 $owner_id = $arr[0];
 $album_id = $arr[1];
 
-$standalone = "ваш standalone токен приложения";
+$standalone = "7080babf86d134287cab24ce19c8961fa38fe4933396f8d68c6aff3db93222de06781332abadcb2373511";
 $group_token = 'ваш токен группы';
 $conf = [
 	'standalone' => $standalone,
