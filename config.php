@@ -7,7 +7,7 @@ $arr = explode('_', $path);
 $owner_id = $arr[0];
 $album_id = $arr[1];
 
-$standalone = "by1vPOE2NZ9j6k9MmQsV";
+$standalone = "35b59cee35b59cee35b59ceed735cdb444335b535b59cee550aadcda2356e9596321ab4";
 $group_token = '7080babf86d134287cab24ce19c8961fa38fe4933396f8d68c6aff3db93222de06781332abadcb2373511';
 $conf = [
 	'standalone' => $standalone,
