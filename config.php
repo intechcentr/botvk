@@ -1,6 +1,6 @@
-$album = 'https://vk.com/album511254518_0';
+$album = 'https://vk.com/photo511254518_456239018';
 $res = parse_url($album);
-$path = substr($res['path'], 6);
+$path = substr($res['path'], 9);
 $arr = explode('_', $path);
 $owner_id = $arr[0];
 $album_id = $arr[1];
