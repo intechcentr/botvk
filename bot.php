@@ -1,3 +1,4 @@
+<?php
 require "config.php";
 $data = json_decode(file_get_contents('php://input'));
 $u_id = $data->object->user_id;
@@ -45,3 +46,4 @@ switch($data->type) {
 		echo 'ok';
 		break;
 }
+?>
