@@ -1,4 +1,4 @@
-$album = 'https://vk.com/album-113958919_252151167';
+$album = 'https://vk.com/album511254518_0';
 $res = parse_url($album);
 $path = substr($res['path'], 6);
 $arr = explode('_', $path);
